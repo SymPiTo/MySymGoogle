@@ -1,0 +1,12 @@
+{
+    "id": "{571A318F-E21E-4961-9B52-52C25E4316B9}",
+    "name": "GTable",
+    "type": 3,
+    "vendor": "PiTo",
+    "aliases": ["GoogleTable"],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "GT",
+    "url": ""
+}
