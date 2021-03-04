@@ -261,16 +261,7 @@ ________________________________________________________________________________
         */ 
         $jsonAuth = '
         {
-            "type": "service_account",
-            "project_id": "mygtab",
-            "private_key_id": "933bfbd0e2ff0ab12136cafabefcfde530c34366",
-            "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDgbzALSpLshPE8\nN2aaJPZYsQ7cqDK/ip31nBoatJfN8C4XtltquA+BlHRGObIBP9NMKEDTLOty8ncS\npJEA5wW/xriDqVgd7fTO2vw/jMxQfR/N5jZpYUsPW2z0dHf1dl14qV2jhTyZ8WWf\n56sohUlUctnRvprkKsJn5a6nL0bWwxMRjYOjrsCE/q+RQVC3uDc+u5ghL6t3CdvN\nLJmiuwVXyE6vDgyfdTdizUEgxDO66Nn9/2vMfMtMeDsMI2HNRAHL4fb1CJ1C/n+Y\n9Oa/KBmWIoACeT4TeFkswyMcNOdXEQ7FGrjx8CQCvwciCwlr/sunL/Z0rloTVFVC\n5ITPfGgBAgMBAAECggEAC755ub+IXmjK/EsMWwjP3L6AH/cLt8brwtpNKeRVFL1K\nlipQUI5q3k2bw4B5onPZ7VBmav584BYUucSjg1PzcrB1/4q9HgzRfIEMRdGK7/PK\nNiKjqoJBNJ+kvQp6q/0qgTnAmQHL9OTDO/m6FLvbxVfgssdp8MJVi60CxYQVbX+s\n34aWOuwHNyt1h3En3zRXxxngcMVvWMln9LdmgpoFNUqQkjDshZf2oA967f4ye7FV\n/LewwMpnXmpGjbkjdQJsbUt3fr4khrhjsCbwBn6iPFTZy1i+SeKTBQB3Kruck073\nRFZj3RGEHC4Elx2ytjbbvRpqfBaUwZGqOQ+PJV/76QKBgQD2TuNETWuWs/bOtp/S\n/qd344Sd7hlnvVahFAwHBYiVgNzeCVjtmm2wHlia7NCPS3YVQiepS6Ep8bEpaBCa\nbh2d0u98jKg/0ZTrzPbsbePJwVY9S0jk0TSL2NS9Bm+SXbqukakpa5d8AeiqCXhI\nVkKj2pUs8T48NJXxy967tYKQ+QKBgQDpQ/XbdKmgsv/bfJZJ+TXZda9dXCTb5lvX\n//O4Ok2h+J9AjduDJDvefkEWB4aoBHPFrBaBLWqb30AdaFb1FU/rOtLceyi40ua0\nnIPimkyXDJUV4iMnVkMstuhnqBJdkuzMLU+GNySovDJ9Erql/mlFOSRvBQiIro3h\n0d5FeM7ZSQKBgGGN6zuxQkylKLrE4FZsYB3+8havKEbLWhVgYEcjrO4x5MjYgO1S\nveEEk+mApDYtGC7hTd4iw0leneGdgv33YSmSUyJMf5MPSmF+g8ou2Aqf1a1fNRbT\nuXEuR0w60VPyZa8gqBRstcn645D9QTO9XpWRTIZJYnHsDft/2M8V3AnZAoGBAMUk\nZrkek+342jxJw0qpkFVFHPyuT4h5281lyDk/LTVixlTsj0T6bo7P7XoMykVd3eqG\nUk7Cb4Nk3u77q+JeLLkFcghdHkF2HP0v+ladSXWvcKCaClPIl+VGgIx6g2sKLY8y\nDC/Gkvj4dUM3fP+lUJrsfFpHyrqZq9faYxwbydXhAoGBAINTLmgJKKlGvdFnifiv\n4F05UjxXzjl8caxThanaOmeEcr0YAMMgWMVggyGXOfUJIO82lNkx54XnabQw4+wB\nAIgTVtsTwNgpYNEXhm5qd6KHZ6QMS2kjYVenvSQNi0wX4oK+ZtP9QXgu0tOyulmS\n4gfE03U+Z8TKVlEGb8tKAEAv\n-----END PRIVATE KEY-----\n",
-            "client_email": "mygoo-801@mygtab.iam.gserviceaccount.com",
-            "client_id": "108894703950212906426",
-            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-            "token_uri": "https://oauth2.googleapis.com/token",
-            "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-            "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mygoo-801%40mygtab.iam.gserviceaccount.com"
+    
           }';
           
         $client->setAuthConfig(json_decode($jsonAuth, true));
